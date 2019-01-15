@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Benoit Mansanarez</title>    
+	<link rel="stylesheet" href="assets/style1.css">
+	<link rel="icon" type="image/png" href="Logo-BM.png" />
+</head>
+
+
+
+<body>
+
+<header>
+	<div class="headerflex">
+		<div>
+			<div class="LW">
+				<img src="Logo-BM.png" class="logo1">
+				<img src="watermark.png" class="signature"></div>
+			</div>
+
+		<nav>
+			<ul id="menu-header" class="menu">
+				<li> <a href="#">PARTICULIER</a></li>
+				<li> <a href="#">PROFESSIONNEL</a></li>
+				<li> <a href="#">GALERIE</a></li>
+				<li> <a href="#">CONTACT</a></li>
+			</ul>
+		</nav>	
+
+
+		<div class="adherent">
+			<form class="form-login" method="post" action="traitement.php">
+				<input class="input" type="text" id="identifiant" name="identifiant" class="login" placeholder="Identifiant">
+				<input class="input" type="text" id="password" name="password" class="login" placeholder="Mot de passe">
+      			<button type="submit" id="connexion" class="login" value="Connexion">Connexion</button>
+        	</form>
+        </div>
+
+	</div>
+
+
+
+</header>
+
+<div class="main">
+    <div class="presentation-photographe">
+        <img id="BO-photo-presentation-accueil" src="Fond-de-presentation.jpg" alt = "Photo du photographe">
+        <p class="text-presentation-photographe"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <div class="container">
+        <section class="section-presentation pro">
+            <div>
+                <h1> ESPACE PROFESSIONNEL</h1>
+                <h2 id="text-pro"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</h2>
+            </div>
+            <div class="presentation-global">
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-1-presentation-pro" src="{{ 'asset/img/Presentation.jpg' | imagine_filter('squared_thumbnail') }}">
+                        <P class="text-presentation" id="BO-titre-photo-1-pro">PRESENTATION D'ENTREPRISE</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-2-presentation-pro" src="{{ 'asset/img/Produit.jpg' | imagine_filter('squared_thumbnail') }}">
+                        <P class="text-presentation" id="BO-titre-photo-2-pro">PRESENTATION PRODUIT</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-3-presentation-pro" src="{{ 'asset/img/Immobilier.jpg' | imagine_filter('squared_thumbnail') }}">
+                        <P class="text-presentation" id="BO-titre-photo-3-pro">PHOTO IMMOBILIER</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-4-presentation-pro" src="{{ 'asset/img/Evenement.jpg' | imagine_filter('squared_thumbnail') }}">
+                        <P class="text-presentation" id="BO-titre-photo-4-pro">COUVERTURE EVENEMENTIELLE</P> </a>
+                </div>
+            </div>
+            <div class="presentation-global">
+
+                <img class="logo-client" src="asset/img/Presentation.jpg">
+
+                <img class="logo-client" src="asset/img/Presentation.jpg">
+
+                <img class="logo-client" src="asset/img/Presentation.jpg">
+
+                <img class="logo-client" src="asset/img/Presentation.jpg">
+
+                <img class="logo-client" src="asset/img/Presentation.jpg">
+            </div>
+        </section>
+        <section class="section-presentation particulier">
+            <div>
+                <h1> ESPACE  PARTICULIER</h1>
+                <h2 id="text-part"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</h2>
+            </div>
+            <div class="presentation-global">
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-1-presentation-particulier" src="mariage.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-1-particulier">EVENEMENT</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-2-presentation-particulier" src="app.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-2-particulier">WORKSHOP</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-3-presentation-particulier" src="studio.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-3-particulier">STUDIO</P> </a>
+
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-4-presentation-particulier" src="chaton.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-4-particulier">ANIMAUX</P> </a>
+                </div>
+
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-5-presentation-particulier" src="salami.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-5-particulier">CHARME</P> </a>
+                </div>
+                <div class="presentation">
+                    <a src="#"><img class="photo-presentation" id="BO-photo-6-presentation-particulier" src="champagne.jpg">
+                        <P class="text-presentation" id="BO-titre-photo-6-particulier">LIFESTYLE</P> </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer>
+
+	
+<hr class=hr2></hr>
+
+<div class="footerflex">
+	
+		<img src="photob.png" class="photob">
+
+		<div class="adresse">
+			<p>Benoit Mansanarez - 25 allée des chapelles<br>
+			63510 Aulnat - Tel:06.28.25.49.39.<br>
+			Puy de Dôme - Auvergne</p>
+		</div>
+
+	
+
+	<img src="reseaux.png" class="reseaux">
+	
+	<div class="Mentions">
+		<p> @ Benoit Mansanarez 2018 - Mentions Légales<br>
+		Particulier - Professionel - Galerie - Contact</p>
+	</div>
+
+	<img src="Logo-BM.png" class="logo2">
+
+</div>
+
+
+	
+
+</footer>	
+</body>
