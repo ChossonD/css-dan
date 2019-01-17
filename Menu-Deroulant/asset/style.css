@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    text-align: center;
+}
+
+.bandeau{
+    display: flex;
+    width : 100%;
+}
+
+img{
+    width : 150px;
+    height : 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.photo{
+    width : 100px;
+    height : 100px;
+    padding : 20px;
+    margin-right: 100px;
+}
+
+.menu{
+    font-family: cambria;
+    display: flex;
+    background: black;
+    color: white;
+    width : 90%;
+}
+
+.titres{
+    display: flex;
+    justify-content: space-around;
+    width: 530px;
+
+}
+
+.titres p {
+    display: flex;
+    flex-direction: column;
+    margin : 20px;
+    font-size: large;
+}
+
+.titres div{
+    border-right: 2px solid white;
+}
+
+.titres2{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+
+}
+
+.titres2 p {
+    display: flex;
+    flex-direction: column;
+    margin : 20px;
+    font-size: large;
+}
+
+.titres2 div{
+    border-right: 2px solid white;
+}
+
+.submenus{
+    display : flex;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width : 30%;
+
+}
+.submenu a{
+    display: block;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+
+.connexion{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    background: gray;
+    color : white;
+}
