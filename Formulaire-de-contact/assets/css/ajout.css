@@ -4,6 +4,7 @@
 }
 
 h1{
+    font-size: 18px;
     text-align : center;
     margin-bottom: 0px;
 }
@@ -16,19 +17,22 @@ p{
 }
 
 .radio{
+    text-align : center;
 	display: inline-flex;
 	font-family: cambria;
 	 }
 
 .input{
+    padding-left: 10px;
 	box-shadow:3px 3px 6px #4e4e4e inset;
-    border-radius:6px;    
+    border-radius:8px;    
     border:1.5px solid black;
-    height: 25px;   
+    height: 30px;   
     width: auto;
 }
 
 textarea{
+    padding-left: 10px;
 	box-shadow:3px 3px 8px #4e4e4e inset;
     border-radius:6px;    
     border:1.5px solid black;
